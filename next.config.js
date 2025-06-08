@@ -47,9 +47,9 @@ const nextConfig = {
     }
     return config
   },
-  // 禁用不必要的功能
+  // 移除 CSS 优化，因为它需要 critters 包
   experimental: {
-    optimizeCss: true, // 优化CSS
+    // 移除 optimizeCss: true
   },
 }
 
